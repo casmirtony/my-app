@@ -21,7 +21,7 @@
       });
 
       const data = await res.json();
-      if(data.checkoutUrl) {
+      if (data.checkoutUrl) {
         window.location.href = data.checkoutUrl;
       } else {
         alert('Payment error');
